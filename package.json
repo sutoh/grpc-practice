@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "client": "ts-node ./client/nodejs-ts/client.ts",
+    "server": "npm run build && node dist/server.js",
+    "build": "webpack"
+  }
+}
